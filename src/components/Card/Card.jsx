@@ -5,7 +5,7 @@ const Card = ({card,selectHandler}) => {
     return (
         <div className="card w-96 md:w-auto lg:w-auto mx-auto bg-base-100 shadow-xl pb-3 rounded-lg">
                 <figure className="px-6 pt-10">
-                    <img src={image} alt="Shoes" className="rounded-xl" />
+                    <img src={image} alt="Course Image" className="rounded-xl" />
                 </figure>
                 <div className="card-body items-center text-center p-2">
                     <h2 className="card-title text-left font-semibold text-xl">{header}</h2>
